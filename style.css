@@ -14,9 +14,11 @@ body {
 
 h1 {
 	color: #333333;
-	text-align: center;
+	text-align: left;
 	font-family: ubuntu_bold;
 	margin-top: 0px;
+	font-size: 24px;
+	margin-left: 10px;
 }
 
 .content {
@@ -37,6 +39,8 @@ h1 {
 	color: #222222;
 	font-family: ubuntu_bold;
 	text-decoration: none;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 a, a:hover, a:visited, a:active, a:link {
@@ -44,3 +48,7 @@ a, a:hover, a:visited, a:active, a:link {
 	text-decoration: none;
 }
 
+ul {
+	list-style-type: none;
+	padding: 0px;
+}
